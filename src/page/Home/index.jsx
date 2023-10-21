@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import Slider from "react-slick";
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes } from "react-router-dom";
 
 const ImageCarousel = () => {
   var settings = {
@@ -44,41 +44,62 @@ const ImageCarousel = () => {
     </div>
   );
 };
-export const  Contact= ()=>{
-return(
-  <div
+export const Contact = () => {
+  return (
+    <div
+      style={{
+        margin: 0,
+        blockSize: "177px",
+        boxSizing: "border-box",
+        fontFamily: "Comfortaa, Arial",
+        fontSize: "16px",
+        inlineSize: "1536px",
+        lineHeight: "18.4px",
+        textSizeAdjust: "100%",
+      }}
+      id={"pg-614-13"}
+      className={"panel-grid panel-has-style"}
+    >
+      <div
         style={{
-          margin: 0,
+          alignItems: "flex-start",
           blockSize: "177px",
           boxSizing: "border-box",
+          display: "flex",
           fontFamily: "Comfortaa, Arial",
           fontSize: "16px",
-          inlineSize: "1536px",
+          inlineSize: "1200px",
+          justifyContent: "space-between",
           lineHeight: "18.4px",
+          marginLeft: "auto",
+          marginRight: "auto",
           textSizeAdjust: "100%",
+          width: "1200px",
+          height: "177px",
         }}
-        id={"pg-614-13"}
-        className={"panel-grid panel-has-style"}
+        className={"container panel-row-style panel-row-style-for-614-13"}
+        id={"contq"}
       >
         <div
           style={{
-            alignItems: "flex-start",
             blockSize: "177px",
             boxSizing: "border-box",
-            display: "flex",
             fontFamily: "Comfortaa, Arial",
             fontSize: "16px",
-            inlineSize: "1200px",
-            justifyContent: "space-between",
+            inlineSize: "379.987px",
             lineHeight: "18.4px",
-            marginLeft: "auto",
-            marginRight: "auto",
+            marginLeft: 0,
+            marginRight: 0,
+            minBlockSize: "auto",
+            minHeight: "auto",
+            minInlineSize: "auto",
+            minWidth: "auto",
             textSizeAdjust: "100%",
-            width: "1200px",
+            width: "calc(33.3333% - 20px)",
             height: "177px",
           }}
-          className={"container panel-row-style panel-row-style-for-614-13"}
-          id={"contq"}
+          id={"pgc-614-13-0"}
+          className={"panel-grid-cell"}
         >
           <div
             style={{
@@ -90,61 +111,58 @@ return(
               lineHeight: "18.4px",
               marginLeft: 0,
               marginRight: 0,
-              minBlockSize: "auto",
-              minHeight: "auto",
-              minInlineSize: "auto",
-              minWidth: "auto",
               textSizeAdjust: "100%",
-              width: "calc(33.3333% - 20px)",
-              height: "177px",
             }}
-            id={"pgc-614-13-0"}
-            className={"panel-grid-cell"}
+            id={"panel-614-13-0-0"}
+            className={
+              "so-panel widget widget_sow-editor panel-first-child panel-last-child"
+            }
+            data-index={30}
           >
             <div
               style={{
+                alignItems: "center",
                 blockSize: "177px",
                 boxSizing: "border-box",
+                display: "flex",
+                flexDirection: "column",
                 fontFamily: "Comfortaa, Arial",
                 fontSize: "16px",
                 inlineSize: "379.987px",
+                justifyContent: "center",
                 lineHeight: "18.4px",
                 marginLeft: 0,
                 marginRight: 0,
                 textSizeAdjust: "100%",
+                WebkitBoxAlign: "center",
+                WebkitBoxOrient: "vertical",
+                WebkitBoxPack: "center",
               }}
-              id={"panel-614-13-0-0"}
               className={
-                "so-panel widget widget_sow-editor panel-first-child panel-last-child"
+                "home-adres panel-widget-style panel-widget-style-for-614-13-0-0"
               }
-              data-index={30}
             >
               <div
                 style={{
-                  alignItems: "center",
-                  blockSize: "177px",
+                  blockSize: "110px",
                   boxSizing: "border-box",
-                  display: "flex",
-                  flexDirection: "column",
                   fontFamily: "Comfortaa, Arial",
                   fontSize: "16px",
                   inlineSize: "379.987px",
-                  justifyContent: "center",
                   lineHeight: "18.4px",
                   marginLeft: 0,
                   marginRight: 0,
+                  minBlockSize: "auto",
+                  minHeight: "auto",
+                  minInlineSize: "auto",
+                  minWidth: "auto",
                   textSizeAdjust: "100%",
-                  WebkitBoxAlign: "center",
-                  WebkitBoxOrient: "vertical",
-                  WebkitBoxPack: "center",
                 }}
-                className={
-                  "home-adres panel-widget-style panel-widget-style-for-614-13-0-0"
-                }
+                className={"so-widget-sow-editor so-widget-sow-editor-base"}
               >
                 <div
                   style={{
-                    blockSize: "110px",
+                    blockSize: "85px",
                     boxSizing: "border-box",
                     fontFamily: "Comfortaa, Arial",
                     fontSize: "16px",
@@ -152,75 +170,77 @@ return(
                     lineHeight: "18.4px",
                     marginLeft: 0,
                     marginRight: 0,
-                    minBlockSize: "auto",
-                    minHeight: "auto",
-                    minInlineSize: "auto",
-                    minWidth: "auto",
                     textSizeAdjust: "100%",
                   }}
-                  className={"so-widget-sow-editor so-widget-sow-editor-base"}
+                  className={"siteorigin-widget-tinymce textwidget"}
                 >
-                  <div
+                  <h5
                     style={{
-                      blockSize: "85px",
+                      blockSize: "19px",
                       boxSizing: "border-box",
                       fontFamily: "Comfortaa, Arial",
-                      fontSize: "16px",
+                      fontSize: "17px",
                       inlineSize: "379.987px",
-                      lineHeight: "18.4px",
+                      lineHeight: "19px",
+                      marginBlockEnd: "10px",
+                      marginBlockStart: "0px",
+                      marginBottom: "10px",
                       marginLeft: 0,
                       marginRight: 0,
+                      marginTop: "0px",
+                      textAlign: "center",
+                      textSizeAdjust: "100%",
+                      textTransform: "uppercase",
+                    }}
+                  >
+                    PHÒNG KHÁM FLAGSHIP Q.1
+                  </h5>
+                  <p
+                    style={{
+                      blockSize: "56px",
+                      boxSizing: "border-box",
+                      fontFamily: "Comfortaa, Arial",
+                      fontSize: "17px",
+                      fontWeight: 300,
+                      inlineSize: "379.987px",
+                      lineHeight: "28px",
+                      marginBlockEnd: "25px",
+                      marginBlockStart: "0px",
+                      marginBottom: "25px",
+                      marginLeft: 0,
+                      marginRight: 0,
+                      marginTop: "0px",
+                      textAlign: "center",
                       textSizeAdjust: "100%",
                     }}
-                    className={"siteorigin-widget-tinymce textwidget"}
                   >
-                    <h5
-                      style={{
-                        blockSize: "19px",
-                        boxSizing: "border-box",
-                        fontFamily: "Comfortaa, Arial",
-                        fontSize: "17px",
-                        inlineSize: "379.987px",
-                        lineHeight: "19px",
-                        marginBlockEnd: "10px",
-                        marginBlockStart: "0px",
-                        marginBottom: "10px",
-                        marginLeft: 0,
-                        marginRight: 0,
-                        marginTop: "0px",
-                        textAlign: "center",
-                        textSizeAdjust: "100%",
-                        textTransform: "uppercase",
-                      }}
-                    >
-                      PHÒNG KHÁM FLAGSHIP Q.1
-                    </h5>
-                    <p
-                      style={{
-                        blockSize: "56px",
-                        boxSizing: "border-box",
-                        fontFamily: "Comfortaa, Arial",
-                        fontSize: "17px",
-                        fontWeight: 300,
-                        inlineSize: "379.987px",
-                        lineHeight: "28px",
-                        marginBlockEnd: "25px",
-                        marginBlockStart: "0px",
-                        marginBottom: "25px",
-                        marginLeft: 0,
-                        marginRight: 0,
-                        marginTop: "0px",
-                        textAlign: "center",
-                        textSizeAdjust: "100%",
-                      }}
-                    >
-                      31A Lý Tự Trọng, Quận 1, Thành phố Hồ Chí Minh.
-                    </p>
-                  </div>
+                    31A Lý Tự Trọng, Quận 1, Thành phố Hồ Chí Minh.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div
+          style={{
+            blockSize: "128.6px",
+            boxSizing: "border-box",
+            fontFamily: "Comfortaa, Arial",
+            fontSize: "16px",
+            inlineSize: "379.987px",
+            lineHeight: "18.4px",
+            marginLeft: 0,
+            marginRight: 0,
+            minBlockSize: "auto",
+            minHeight: "auto",
+            minInlineSize: "auto",
+            minWidth: "auto",
+            textSizeAdjust: "100%",
+            width: "calc(33.3333% - 20px)",
+          }}
+          id={"pgc-614-13-1"}
+          className={"panel-grid-cell"}
+        >
           <div
             style={{
               blockSize: "128.6px",
@@ -231,56 +251,54 @@ return(
               lineHeight: "18.4px",
               marginLeft: 0,
               marginRight: 0,
-              minBlockSize: "auto",
-              minHeight: "auto",
-              minInlineSize: "auto",
-              minWidth: "auto",
               textSizeAdjust: "100%",
-              width: "calc(33.3333% - 20px)",
             }}
-            id={"pgc-614-13-1"}
-            className={"panel-grid-cell"}
+            id={"panel-614-13-1-0"}
+            className={
+              "so-panel widget widget_sow-editor panel-first-child panel-last-child"
+            }
+            data-index={31}
           >
             <div
               style={{
+                alignItems: "center",
                 blockSize: "128.6px",
                 boxSizing: "border-box",
+                display: "flex",
+                flexDirection: "column",
                 fontFamily: "Comfortaa, Arial",
                 fontSize: "16px",
                 inlineSize: "379.987px",
+                justifyContent: "center",
                 lineHeight: "18.4px",
                 marginLeft: 0,
                 marginRight: 0,
                 textSizeAdjust: "100%",
+                WebkitBoxAlign: "center",
+                WebkitBoxOrient: "vertical",
+                WebkitBoxPack: "center",
               }}
-              id={"panel-614-13-1-0"}
               className={
-                "so-panel widget widget_sow-editor panel-first-child panel-last-child"
+                "home-tel panel-widget-style panel-widget-style-for-614-13-1-0"
               }
-              data-index={31}
             >
               <div
                 style={{
-                  alignItems: "center",
-                  blockSize: "128.6px",
+                  blockSize: "61.6px",
                   boxSizing: "border-box",
-                  display: "flex",
-                  flexDirection: "column",
                   fontFamily: "Comfortaa, Arial",
                   fontSize: "16px",
-                  inlineSize: "379.987px",
-                  justifyContent: "center",
+                  inlineSize: "111.1px",
                   lineHeight: "18.4px",
                   marginLeft: 0,
                   marginRight: 0,
+                  minBlockSize: "auto",
+                  minHeight: "auto",
+                  minInlineSize: "auto",
+                  minWidth: "auto",
                   textSizeAdjust: "100%",
-                  WebkitBoxAlign: "center",
-                  WebkitBoxOrient: "vertical",
-                  WebkitBoxPack: "center",
                 }}
-                className={
-                  "home-tel panel-widget-style panel-widget-style-for-614-13-1-0"
-                }
+                className={"so-widget-sow-editor so-widget-sow-editor-base"}
               >
                 <div
                   style={{
@@ -292,81 +310,82 @@ return(
                     lineHeight: "18.4px",
                     marginLeft: 0,
                     marginRight: 0,
-                    minBlockSize: "auto",
-                    minHeight: "auto",
-                    minInlineSize: "auto",
-                    minWidth: "auto",
                     textSizeAdjust: "100%",
                   }}
-                  className={"so-widget-sow-editor so-widget-sow-editor-base"}
+                  className={"siteorigin-widget-tinymce textwidget"}
                 >
-                  <div
+                  <h5
                     style={{
-                      blockSize: "61.6px",
+                      blockSize: "19px",
                       boxSizing: "border-box",
                       fontFamily: "Comfortaa, Arial",
-                      fontSize: "16px",
+                      fontSize: "17px",
                       inlineSize: "111.1px",
-                      lineHeight: "18.4px",
+                      lineHeight: "19px",
+                      marginBlockEnd: "10px",
+                      marginBlockStart: "0px",
+                      marginBottom: "10px",
                       marginLeft: 0,
                       marginRight: 0,
+                      marginTop: "0px",
+                      textAlign: "center",
                       textSizeAdjust: "100%",
+                      textTransform: "uppercase",
                     }}
-                    className={"siteorigin-widget-tinymce textwidget"}
                   >
-                    <h5
-                      style={{
-                        blockSize: "19px",
-                        boxSizing: "border-box",
-                        fontFamily: "Comfortaa, Arial",
-                        fontSize: "17px",
-                        inlineSize: "111.1px",
-                        lineHeight: "19px",
-                        marginBlockEnd: "10px",
-                        marginBlockStart: "0px",
-                        marginBottom: "10px",
-                        marginLeft: 0,
-                        marginRight: 0,
-                        marginTop: "0px",
-                        textAlign: "center",
-                        textSizeAdjust: "100%",
-                        textTransform: "uppercase",
-                      }}
-                    >
-                      Hotline
-                    </h5>
-                    <h3
-                      style={{
-                        blockSize: "26.6px",
-                        borderBlockEndColor: "rgb(244, 194, 214)",
-                        borderBlockEndStyle: "dashed",
-                        borderBlockEndWidth: "1.6px",
-                        borderBottomColor: "rgb(244, 194, 214)",
-                        borderBottomStyle: "dashed",
-                        borderBottomWidth: "1.6px",
-                        boxSizing: "border-box",
-                        fontFamily: "Comfortaa, Arial",
-                        fontSize: "24px",
-                        inlineSize: "111.1px",
-                        lineHeight: "25px",
-                        marginBlockEnd: "0px",
-                        marginBlockStart: "16px",
-                        marginBottom: "0px",
-                        marginLeft: 0,
-                        marginRight: 0,
-                        marginTop: "16px",
-                        textAlign: "center",
-                        textSizeAdjust: "100%",
-                        textTransform: "uppercase",
-                      }}
-                    >
-                      18006733
-                    </h3>
-                  </div>
+                    Hotline
+                  </h5>
+                  <h3
+                    style={{
+                      blockSize: "26.6px",
+                      borderBlockEndColor: "rgb(244, 194, 214)",
+                      borderBlockEndStyle: "dashed",
+                      borderBlockEndWidth: "1.6px",
+                      borderBottomColor: "rgb(244, 194, 214)",
+                      borderBottomStyle: "dashed",
+                      borderBottomWidth: "1.6px",
+                      boxSizing: "border-box",
+                      fontFamily: "Comfortaa, Arial",
+                      fontSize: "24px",
+                      inlineSize: "111.1px",
+                      lineHeight: "25px",
+                      marginBlockEnd: "0px",
+                      marginBlockStart: "16px",
+                      marginBottom: "0px",
+                      marginLeft: 0,
+                      marginRight: 0,
+                      marginTop: "16px",
+                      textAlign: "center",
+                      textSizeAdjust: "100%",
+                      textTransform: "uppercase",
+                    }}
+                  >
+                    18006733
+                  </h3>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div
+          style={{
+            blockSize: "149px",
+            boxSizing: "border-box",
+            fontFamily: "Comfortaa, Arial",
+            fontSize: "16px",
+            inlineSize: "379.987px",
+            lineHeight: "18.4px",
+            marginLeft: 0,
+            marginRight: 0,
+            minBlockSize: "auto",
+            minHeight: "auto",
+            minInlineSize: "auto",
+            minWidth: "auto",
+            textSizeAdjust: "100%",
+          }}
+          id={"pgc-614-13-2"}
+          className={"panel-grid-cell"}
+        >
           <div
             style={{
               blockSize: "149px",
@@ -377,59 +396,58 @@ return(
               lineHeight: "18.4px",
               marginLeft: 0,
               marginRight: 0,
-              minBlockSize: "auto",
-              minHeight: "auto",
-              minInlineSize: "auto",
-              minWidth: "auto",
               textSizeAdjust: "100%",
             }}
-            id={"pgc-614-13-2"}
-            className={"panel-grid-cell"}
+            id={"panel-614-13-2-0"}
+            className={
+              "so-panel widget widget_sow-editor panel-first-child panel-last-child"
+            }
+            data-index={32}
           >
             <div
               style={{
+                alignItems: "center",
                 blockSize: "149px",
                 boxSizing: "border-box",
+                display: "flex",
+                flexDirection: "column",
                 fontFamily: "Comfortaa, Arial",
                 fontSize: "16px",
                 inlineSize: "379.987px",
+                justifyContent: "center",
                 lineHeight: "18.4px",
                 marginLeft: 0,
                 marginRight: 0,
                 textSizeAdjust: "100%",
+                WebkitBoxAlign: "center",
+                WebkitBoxOrient: "vertical",
+                WebkitBoxPack: "center",
               }}
-              id={"panel-614-13-2-0"}
               className={
-                "so-panel widget widget_sow-editor panel-first-child panel-last-child"
+                "home-adres panel-widget-style panel-widget-style-for-614-13-2-0"
               }
-              data-index={32}
             >
               <div
                 style={{
-                  alignItems: "center",
-                  blockSize: "149px",
+                  blockSize: "82px",
                   boxSizing: "border-box",
-                  display: "flex",
-                  flexDirection: "column",
                   fontFamily: "Comfortaa, Arial",
                   fontSize: "16px",
-                  inlineSize: "379.987px",
-                  justifyContent: "center",
+                  inlineSize: "376.612px",
                   lineHeight: "18.4px",
                   marginLeft: 0,
                   marginRight: 0,
+                  minBlockSize: "auto",
+                  minHeight: "auto",
+                  minInlineSize: "auto",
+                  minWidth: "auto",
                   textSizeAdjust: "100%",
-                  WebkitBoxAlign: "center",
-                  WebkitBoxOrient: "vertical",
-                  WebkitBoxPack: "center",
                 }}
-                className={
-                  "home-adres panel-widget-style panel-widget-style-for-614-13-2-0"
-                }
+                className={"so-widget-sow-editor so-widget-sow-editor-base"}
               >
                 <div
                   style={{
-                    blockSize: "82px",
+                    blockSize: "57px",
                     boxSizing: "border-box",
                     fontFamily: "Comfortaa, Arial",
                     fontSize: "16px",
@@ -437,80 +455,69 @@ return(
                     lineHeight: "18.4px",
                     marginLeft: 0,
                     marginRight: 0,
-                    minBlockSize: "auto",
-                    minHeight: "auto",
-                    minInlineSize: "auto",
-                    minWidth: "auto",
                     textSizeAdjust: "100%",
                   }}
-                  className={"so-widget-sow-editor so-widget-sow-editor-base"}
+                  className={"siteorigin-widget-tinymce textwidget"}
                 >
-                  <div
+                  <h5
                     style={{
-                      blockSize: "57px",
+                      blockSize: "19px",
                       boxSizing: "border-box",
                       fontFamily: "Comfortaa, Arial",
-                      fontSize: "16px",
+                      fontSize: "17px",
                       inlineSize: "376.612px",
-                      lineHeight: "18.4px",
+                      lineHeight: "19px",
+                      marginBlockEnd: "10px",
+                      marginBlockStart: "0px",
+                      marginBottom: "10px",
                       marginLeft: 0,
                       marginRight: 0,
+                      marginTop: "0px",
+                      textAlign: "center",
+                      textSizeAdjust: "100%",
+                      textTransform: "uppercase",
+                    }}
+                  >
+                    PHÒNG KHÁM Q.2
+                  </h5>
+                  <p
+                    style={{
+                      blockSize: "28px",
+                      boxSizing: "border-box",
+                      fontFamily: "Comfortaa, Arial",
+                      fontSize: "17px",
+                      fontWeight: 300,
+                      inlineSize: "376.612px",
+                      lineHeight: "28px",
+                      marginBlockEnd: "25px",
+                      marginBlockStart: "0px",
+                      marginBottom: "25px",
+                      marginLeft: 0,
+                      marginRight: 0,
+                      marginTop: "0px",
+                      textAlign: "center",
                       textSizeAdjust: "100%",
                     }}
-                    className={"siteorigin-widget-tinymce textwidget"}
                   >
-                    <h5
-                      style={{
-                        blockSize: "19px",
-                        boxSizing: "border-box",
-                        fontFamily: "Comfortaa, Arial",
-                        fontSize: "17px",
-                        inlineSize: "376.612px",
-                        lineHeight: "19px",
-                        marginBlockEnd: "10px",
-                        marginBlockStart: "0px",
-                        marginBottom: "10px",
-                        marginLeft: 0,
-                        marginRight: 0,
-                        marginTop: "0px",
-                        textAlign: "center",
-                        textSizeAdjust: "100%",
-                        textTransform: "uppercase",
-                      }}
-                    >
-                      PHÒNG KHÁM Q.2
-                    </h5>
-                    <p
-                      style={{
-                        blockSize: "28px",
-                        boxSizing: "border-box",
-                        fontFamily: "Comfortaa, Arial",
-                        fontSize: "17px",
-                        fontWeight: 300,
-                        inlineSize: "376.612px",
-                        lineHeight: "28px",
-                        marginBlockEnd: "25px",
-                        marginBlockStart: "0px",
-                        marginBottom: "25px",
-                        marginLeft: 0,
-                        marginRight: 0,
-                        marginTop: "0px",
-                        textAlign: "center",
-                        textSizeAdjust: "100%",
-                      }}
-                    >
-                      63 Xuân Thủy, Quận 2, Thành phố Thủ Đức
-                    </p>
-                  </div>
+                    63 Xuân Thủy, Quận 2, Thành phố Thủ Đức
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-)
-}
-export  function Home() {
+    </div>
+  );
+};
+export function Home() {
+  const scrollToContact = () => {
+    // Find the Contact section using its ID and scroll to it.
+    const contactSection = document.getElementById("contact-section");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <div className="w-screen">
       <header
@@ -1423,7 +1430,7 @@ export  function Home() {
                       transitionDuration: "0.3s",
                       WebkitLocale: "vi",
                     }}
-                    href="https://glo365.vn/services/"
+                    href="/services"
                   >
                     DỊCH VỤ
                   </a>
@@ -1483,7 +1490,7 @@ export  function Home() {
                       transitionDuration: "0.3s",
                       WebkitLocale: "vi",
                     }}
-                    href="https://shop.glo365.vn"
+                    href="#"
                   >
                     CỬA HÀNG
                   </a>
@@ -1543,7 +1550,7 @@ export  function Home() {
                       transitionDuration: "0.3s",
                       WebkitLocale: "vi",
                     }}
-                    href="https://glo365.vn/events/"
+                    href="/events"
                   >
                     SỰ KIỆN
                   </a>
@@ -1610,6 +1617,7 @@ export  function Home() {
                   </a>
                 </li>
                 <li
+                  onClick={scrollToContact}
                   style={{
                     blockSize: 48,
                     boxSizing: "border-box",
@@ -1664,8 +1672,10 @@ export  function Home() {
                       WebkitLocale: "vi",
                       width: "fit-content",
                     }}
-                    href="https://glo365.vn/#contact"
+                    href="/contact"
                     aria-current="page"
+                    onClick={scrollToContact}
+
                   >
                     LIÊN HỆ
                   </a>
@@ -1785,7 +1795,7 @@ export  function Home() {
                       WebkitLocale: "vi",
                       width: "fit-content",
                     }}
-                    href="https://shop.glo365.vn/blog/"
+                    href="#"
                   >
                     TẠP CHÍ LÀM ĐẸP
                   </a>
@@ -1798,8 +1808,14 @@ export  function Home() {
 
       <div
         id="panel-614-1-0-0"
-        className="p-4 bg-white font-comfortaa text-base leading-5 h-96"
-      ></div>
+        className="p-4 font-comfortaa text-base leading-5 h-96 mb-10"
+      >
+        <div className="h-full w-screen flex justify-center">
+          <img className="h-full" src="https://glo365.vn/wp-content/uploads/2023/10/Home-slider-desk-780x94-PNVN-20-10.png" alt="" />
+        </div>
+
+        
+      </div>
 
       <div
         style={{
@@ -5777,6 +5793,7 @@ export  function Home() {
           </div>
         </div>
       </div>
+
       <div
         style={{
           margin: 0,
@@ -5908,7 +5925,8 @@ export  function Home() {
           </div>
         </div>
       </div>
-      <Contact />
+
+      <Contact id="contact-section"/>
       <footer
         style={{
           margin: 0,

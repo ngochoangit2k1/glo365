@@ -1,7 +1,14 @@
 import React from "react";
 import "./style.css";
-
+ const scrollToContact = () => {
+    // Find the Contact section using its ID and scroll to it.
+    const contactSection = document.getElementById('contact-section');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 const Header = () => {
+ 
   return (
     <div className="w-screen flex justify-center h-auto">
       <div
@@ -139,7 +146,7 @@ const Header = () => {
                 WebkitTextFillColor: "rgb(0, 0, 238)",
                 WebkitTextStrokeColor: "rgb(0, 0, 238)",
               }}
-              href="https://glo365.vn/"
+              href="/"
               className="custom-logo-link"
               rel="home"
               aria-current="page"
@@ -342,7 +349,7 @@ const Header = () => {
                 role="search"
                 id="search-live-form-1503645996"
                 className="search-live-form"
-                action="https://glo365.vn/"
+                action="#"
                 method="get"
               >
                 <input
@@ -600,7 +607,7 @@ const Header = () => {
                     transitionDuration: "0.3s",
                     WebkitLocale: "vi",
                   }}
-                  href="https://glo365.vn/services/"
+                  href="/services/"
                 >
                   DỊCH VỤ
                 </a>
@@ -704,7 +711,7 @@ const Header = () => {
                     transitionDuration: "0.3s",
                     WebkitLocale: "vi",
                   }}
-                  href="https://glo365.vn/events/"
+                  href="/events/"
                 >
                   SỰ KIỆN
                 </a>
@@ -756,7 +763,7 @@ const Header = () => {
                     transitionDuration: "0.3s",
                     WebkitLocale: "vi",
                   }}
-                  href="https://glo365.vn/#about"
+                  href="/about"
                   aria-current="page"
                 >
                   GIỚI THIỆU
@@ -857,8 +864,9 @@ const Header = () => {
                     transitionDuration: "0.3s",
                     WebkitLocale: "vi",
                   }}
-                  href="https://glo365.vn/#contact"
+                  href="/contact"
                   aria-current="page"
+                  onClick={scrollToContact}
                 >
                   LIÊN HỆ
                 </a>
