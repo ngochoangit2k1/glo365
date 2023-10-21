@@ -1,10 +1,13 @@
 import { createBrowserRouter } from 'react-router-dom'
 import HomeLayout from './layouts/Home'
-import {Home, Contact} from './page/Home'
+import {Home} from './page/Home'
 import Services from './page/Services'
 import Event from './page/events'
 import Careers from './page/careers'
+import About from './page/about'
+import  Contact   from './page/contact'
 import Laser from './page/pages/LASER'
+
 import PhotoFacial from './page/pages/PHOTOFACIAL'
 import Hydra from './page/pages/HYDRAGLOW'
 import Facegym from './page/pages/FACEGYM'
@@ -25,6 +28,14 @@ const router = createBrowserRouter([
     element: (
       <HomeLayout>
         <Services />
+      </HomeLayout>
+    )
+  },
+  {
+    path: '/about',
+    element: (
+      <HomeLayout>
+        <About />
       </HomeLayout>
     )
   },
@@ -71,8 +82,9 @@ const router = createBrowserRouter([
    path: '/contact',
    element: (
      
-    <Home/>
-
+    <HomeLayout>
+    <Contact />
+  </HomeLayout>
 )
   },
   {

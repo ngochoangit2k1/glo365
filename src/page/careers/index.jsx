@@ -25,7 +25,7 @@ const datas = [
   },
 ];
 export default function index() {
-  const settings = {
+    const settings = {
     dots: true,
     infinite: true,
     speed: 500,
@@ -34,15 +34,17 @@ export default function index() {
   };
 
   return (
-    <div className="w-full h-screen flex" >
-     
-        {datas.map((data, index) => (
+<div>
+    <h3 className="text-5xl mb-10">Tuyển dụng</h3>
+  <div className="w-full h-auto flex sm:flex-col xl:flex-row justify-center items-center" >
+
+      {datas.map((data, index) => (
           <div key={index}>
             {" "}
             <div
               style={{
                 margin: 0,
-                blockSize: "448px",
+                
                 boxSizing: "border-box",
                 fontFamily: "Comfortaa, Arial",
                 fontSize: "16px",
@@ -63,7 +65,7 @@ export default function index() {
             >
               <div
                 style={{
-                  blockSize: "448px",
+                
                   boxSizing: "border-box",
                   fontFamily: "Comfortaa, Arial",
                   fontSize: "16px",
@@ -84,7 +86,7 @@ export default function index() {
                 <div
                   style={{
                     backgroundColor: "rgb(255, 255, 255)",
-                    blockSize: "448px",
+                   
                     borderBottomLeftRadius: "24px",
                     borderBottomRightRadius: "24px",
                     borderEndEndRadius: "24px",
@@ -121,7 +123,7 @@ export default function index() {
                 >
                   <div
                     style={{
-                      blockSize: "358px",
+                     
                       boxSizing: "border-box",
                       fontFamily: "Comfortaa, Arial",
                       fontSize: "16px",
@@ -137,7 +139,6 @@ export default function index() {
                   >
                     <div
                       style={{
-                        blockSize: "358px",
                         boxSizing: "border-box",
                         fontFamily: "Comfortaa, Arial",
                         fontSize: "16px",
@@ -153,7 +154,6 @@ export default function index() {
                     >
                       <h4
                         style={{
-                          blockSize: "29px",
                           boxSizing: "border-box",
                           fontFamily: "Comfortaa, Arial",
                           fontSize: "17px",
@@ -175,7 +175,6 @@ export default function index() {
                       </h4>
                       <p
                         style={{
-                          blockSize: "234px",
                           boxSizing: "border-box",
                           fontFamily: "Comfortaa, Arial",
                           fontSize: "16px",
@@ -196,7 +195,6 @@ export default function index() {
                       </p>
                       <p
                         style={{
-                          blockSize: "45px",
                           boxSizing: "border-box",
                           fontFamily: "Comfortaa, Arial",
                           fontSize: "16px",
@@ -217,7 +215,6 @@ export default function index() {
                           style={{
                             alignItems: "center",
                             backgroundColor: "rgb(244, 194, 214)",
-                            blockSize: "45px",
                             borderBlockEndColor: "rgb(255, 255, 255)",
                             borderBlockStartColor: "rgb(255, 255, 255)",
                             borderBottomColor: "rgb(255, 255, 255)",
@@ -280,7 +277,9 @@ export default function index() {
             </div>
           </div>
         ))}
+       
   
-    </div>
+    </div></div>
+    
   );
 }

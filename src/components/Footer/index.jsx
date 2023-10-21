@@ -9,30 +9,11 @@ const Footer = () => {
           backgroundImage:
             "url(https://glo365.vn/wp-content/themes/ndg-quantum/imgs/footer.svg)",
           backgroundRepeat: "no-repeat",
-          backgroundSize: "2037px",
-          blockSize: "520px",
-          bottom: "0px",
-          boxSizing: "border-box",
-          fontFamily: "Comfortaa, Arial",
-          fontSize: "16px",
-          inlineSize: "1536px",
-          insetBlockEnd: "0px",
-          insetBlockStart: "0px",
-          insetInlineEnd: "0px",
-          insetInlineStart: "0px",
-          left: "0px",
-          lineHeight: "18.4px",
-          minBlockSize: "auto",
-          minHeight: "auto",
-          minInlineSize: "auto",
-          minWidth: "auto",
-          position: "relative",
-          right: "0px",
-          textSizeAdjust: "100%",
-          top: "0px",
+          backgroundSize: "cover",
+          
           zIndex: 5,
         }}
-        className={"ndg-footer"}
+        className={"ndg-footer xl:h-1/4 sm:h-screen md:h-screen flex items-end"}
       >
         <div
           style={{
@@ -42,34 +23,31 @@ const Footer = () => {
             fontSize: "16px",
             inlineSize: "1536px",
             lineHeight: "18.4px",
-            marginLeft: 0,
-            marginRight: 0,
+          
             textSizeAdjust: "100%",
           }}
-          className={"ndg-widget-row"}
+          className={"ndg-widget-row xl:ml-0 mr-0 sm:ml-11"}
         >
           <div
             style={{
-              alignItems: "flex-end",
+            
               blockSize: "520px",
               boxSizing: "border-box",
               display: "flex",
-              flexWrap: "wrap",
               fontFamily: "Comfortaa, Arial",
               fontSize: "16px",
               inlineSize: "1200px",
               justifyContent: "flex-start",
               lineHeight: "18.4px",
-              marginLeft: "auto",
               marginRight: "auto",
               paddingBlockEnd: "85px",
               paddingBottom: "85px",
               textSizeAdjust: "100%",
               WebkitBoxAlign: "end",
               width: "1200px",
-              height: "520px",
+              
             }}
-            className={"container wrapper flex-row fs aie"}
+            className={"container wrapper sm:flex-col xl:flex-row fs aie xl:ml-auto sm:ml-3 xl:items-end sm:items-stretch"}
           >
             <div
               style={{
@@ -147,7 +125,7 @@ const Footer = () => {
                     WebkitTextFillColor: "rgb(0, 0, 238)",
                     WebkitTextStrokeColor: "rgb(0, 0, 238)",
                   }}
-                  href={"https://glo365.vn/"}
+                  href={"#"}
                   className={"custom-logo-link"}
                   rel={"home"}
                   aria-current={"page"}
@@ -501,7 +479,7 @@ const Footer = () => {
                   }}
                   className={"ndg-copy"}
                 >
-                  All Rights Reserved, 2021
+                 
                 </p>
               </div>
             </div>
@@ -545,7 +523,7 @@ const Footer = () => {
                   minWidth: "auto",
                   textSizeAdjust: "100%",
                 }}
-                className={"menu-bottom-vi-container"}
+                className={"menu-bottom-vi-container my-10"}
               >
                 <ul
                   style={{
@@ -630,7 +608,7 @@ const Footer = () => {
                         WebkitTextFillColor: "rgb(255, 255, 255)",
                         WebkitTextStrokeColor: "rgb(255, 255, 255)",
                       }}
-                      href={"https://glo365.vn/services/"}
+                      href={"/services/"}
                     >
                       DỊCH VỤ
                     </a>
@@ -760,7 +738,7 @@ const Footer = () => {
                         WebkitTextFillColor: "rgb(255, 255, 255)",
                         WebkitTextStrokeColor: "rgb(255, 255, 255)",
                       }}
-                      href={"https://glo365.vn/events/"}
+                      href={"/events/"}
                     >
                       SỰ KIỆN
                     </a>
@@ -825,7 +803,7 @@ const Footer = () => {
                         WebkitTextFillColor: "rgb(255, 255, 255)",
                         WebkitTextStrokeColor: "rgb(255, 255, 255)",
                       }}
-                      href={"https://glo365.vn/#about"}
+                      href={"/about"}
                       aria-current={"page"}
                     >
                       GIỚI THIỆU
@@ -891,7 +869,7 @@ const Footer = () => {
                         WebkitTextFillColor: "rgb(255, 255, 255)",
                         WebkitTextStrokeColor: "rgb(255, 255, 255)",
                       }}
-                      href={"https://glo365.vn/careers/"}
+                      href={"/careers/"}
                     >
                       TUYỂN DỤNG
                     </a>
