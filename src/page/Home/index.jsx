@@ -991,7 +991,7 @@ export function Home() {
                     role="search"
                     id="search-live-form-408569956"
                     className="search-live-form"
-                    action="https://glo365.vn/"
+                    action="#"
                     method="get"
                   >
                     <input
@@ -1218,7 +1218,7 @@ export function Home() {
                 WebkitTextFillColor: "rgb(0, 0, 238)",
                 WebkitTextStrokeColor: "rgb(0, 0, 238)",
               }}
-              href="https://glo365.vn/"
+              href="#"
               className="custom-logo-link"
               rel="home"
               aria-current="page"
@@ -1429,6 +1429,7 @@ export function Home() {
                       transformOrigin: "33.6625px 9px",
                       transitionDuration: "0.3s",
                       WebkitLocale: "vi",
+                      zIndex:"20"
                     }}
                     href="/services"
                   >
@@ -1610,7 +1611,7 @@ export function Home() {
                       transitionDuration: "0.3s",
                       WebkitLocale: "vi",
                     }}
-                    href="https://glo365.vn/#about"
+                    href="/#"
                     aria-current="page"
                   >
                     GIỚI THIỆU
@@ -6684,7 +6685,7 @@ export function Home() {
                         WebkitTextFillColor: "rgb(255, 255, 255)",
                         WebkitTextStrokeColor: "rgb(255, 255, 255)",
                       }}
-                      href={"https://glo365.vn/events/"}
+                      href={"/events/"}
                     >
                       SỰ KIỆN
                     </a>
