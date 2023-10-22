@@ -22,7 +22,7 @@ const Footerx = () => {
         <div className="w-auto pt-20"><Footer.Brand as={Link} href="/" className="text-slate-50 ml-14 mt-25">
           <img
             src="https://glo365.vn/wp-content/uploads/2020/07/Glo365-logo-2000x600.svg"
-            className="mr-3 xl:h-14 sm:h-9 h-9"
+            className="mr-3 xl:h-14 sm:h-9 h-9"     
             alt="Flowbite React Logo"
           />
         </Footer.Brand>
