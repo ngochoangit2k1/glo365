@@ -116,7 +116,7 @@ export default function index() {
   const [openMenu, setOpenMenu] = useState("");
 
   return (
-    <div className=" w-screen h-auto flex flex-col items-center mb-20">
+    <div className=" w-[100%] h-auto flex flex-col items-center justify-center mb-20">
       <h2
         style={{
           boxSizing: "border-box",
@@ -157,7 +157,7 @@ export default function index() {
                 setOpenMenu(item.name === openMenu ? "" : item.name), toggle;
               }}
               data-index={2}
-              className="w-3/5 flex justify-center"
+              className="w-4/5 flex justify-center"
             >
               <div
                 style={{

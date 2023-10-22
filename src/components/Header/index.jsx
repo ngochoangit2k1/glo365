@@ -10,12 +10,12 @@ const Header = () => {
   return (
     <>
       <div className=" xl:h-10 sm:h-0 h-0 "></div>
-      <div className="w-screen  flex justify-center items-center">
+      <div className="   w-screen  flex justify-center items-center">
         <Navbar
           style={{
             boxShadow: "0 3px 30px rgba(255,103,152,.31)",
           }}
-          className=" h-auto xl:rounded-full  xl:w-5/6 sm:w-full w-full sm:rounded-none nowrap"
+          className=" h-auto xl:rounded-full  xl:w-5/6 sm:w-full  mobile:w-full sm:rounded-none nowrap w-full"
         >
           <div className="  50  flex">
             <Navbar.Brand as={Link} to="/">

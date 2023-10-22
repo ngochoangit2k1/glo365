@@ -26,7 +26,7 @@ const Footerx = () => {
             alt="Flowbite React Logo"
           />
         </Footer.Brand>
-        <div className="grid xl:grid-cols-3 mt-10  sm:grid-cols-1  gap-4 ml-20  ">
+        <div className="grid xl:grid-cols-3 mt-10  sm:grid-cols-1  gap-4 xl:ml-20  sm:ml-10 ml-10">
           {" "}
           <div className="flex flex-col items-start mr-10 left text-white sm:order-3 order-3 xl:order-1  w-3/5">
             <p className="mb-3 flex">
@@ -53,24 +53,24 @@ const Footerx = () => {
             />
           </div>
           <Footer.LinkGroup className="w-auto grid grid-cols-1  text-white sm:order-1 order-1  xl:order-2 ">
-            <div className="w-5/6 text-white h-1/2 xl:mt-20 sm:mt-0 mr-10 text-base  grid grid-cols-3">
-              <Link className="mr-10   " to="/services/">
+            <div className=" text-white h-1/2 xl:mt-20 sm:mt-0 mr-10 text-base  grid grid-cols-3">
+              <Link className="xl:mr-10 mr-0"to="/services/">
                 DỊCH VỤ
               </Link>
 
-              <Link className="mr-10" to="#">
+              <Link className="xl:mr-10 mr-0" to="#">
                 CỬA HÀNG
               </Link>
 
-              <Link className="mr-10" to="/events/">
+              <Link className="xl:mr-10 mr-0"  to="/events/">
                 SỰ KIỆN
               </Link>
 
-              <Link className="mr-10" to="/about">
+              <Link className="xl:mr-10 mr-0"  to="/about">
                 GIỚI THIỆU
               </Link>
 
-              <Link className="mr-10" to="#">
+              <Link className="xl:mr-10 mr-0"  to="#">
                 MAGAZINE
               </Link>
 
