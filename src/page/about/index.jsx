@@ -25,7 +25,7 @@ const datas = [
 
 export default function index() {
   return (
-    <div className="flex flex-col  items-center">
+    <div className="flex flex-col  items-center my-20">
       <h2 className="text-5xl font-extralight "> VỀ CHÚNG TÔI</h2>
       <p className="w-1/2 text-lg my-10">
         Glo365 là một Beauty Concept đẳng cấp 5 sao hàng đầu Châu Á, bao gồm các

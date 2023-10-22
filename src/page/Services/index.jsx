@@ -138,216 +138,168 @@ export default function index() {
       >
         Dịch vụ thẩm mỹ
       </h2>
-
-      {data.map((item, i) => (
-        <div className=" w-9/12 h   flex flex-col items-center justify-center">
-          {" "}
+      <div className="w-screen flex flex-col items-center">
+        {data.map((item, i) => (
           <div
-            key={i}
-            style={{
-              boxSizing: "border-box",
-              fontFamily: "Comfortaa, Arial",
-              fontSize: "16px",
-            }}
-            id={"panel-626-1-0-0"}
-            onClick={() => {
-              setOpenMenu(item.name === openMenu ? "" : item.name), toggle;
-            }}
-            data-index={2}
+            className={` w-full my-3   flex flex-col items-center justify-center rounded-lg   ${
+              openMenu === item.name ? "h-1/3 " : "h-20 "
+            } `}
           >
+            {" "}
             <div
-           
-              className={` my-10 ${
-                openMenu === item.name ? "h-1/3 " : "h-20 "
-              }`}
-              id={"musthave"}
+              key={i}
+              style={{
+                fontFamily: "Comfortaa, Arial",
+                fontSize: "16px",
+              }}
+              id={"panel-626-1-0-0"}
+              onClick={() => {
+                setOpenMenu(item.name === openMenu ? "" : item.name), toggle;
+              }}
+              data-index={2}
+              className="w-4/5 flex justify-center"
             >
-              <h3
-                
-                className={` hover:text-pink-600  ${openMenu === item.name ? "hidden " : "block"}`}
-              >
-                {" "}
-                {item.name}
-              </h3>
-
               <div
-             
-                id={"pl-w64f4c4564fe52"}
-                className={`panel-layout ${
-                  openMenu === item.name ? "block" : "hidden"
+                style={{
+                  boxShadow: "0 3px 30px rgba(255,103,152,.31)",
+                }}
+                className={`p-5 w-full bg-slate-50  flex justify-center items-center rounded-3xl ${
+                  openMenu === item.name ? "h-1/3 " : "h-14 "
                 }`}
+                id={"musthave"}
               >
+                <h3
+                  className={`  hover:text-pink-600  ${
+                    openMenu === item.name ? "hidden " : "block"
+                  }`}
+                >
+                  {" "}
+                  {item.name}
+                </h3>
+
                 <div
-                  
-                  id={"pg-w64f4c4564fe52-0"}
-                  className={"panel-grid panel-no-style"}
+                  id={"pl-w64f4c4564fe52"}
+                  className={`panel-layout ${
+                    openMenu === item.name ? "block" : "hidden"
+                  }`}
                 >
                   <div
-                    
-                    id={"pgc-w64f4c4564fe52-0-0"}
-                    className={"panel-grid-cell"}
+                    id={"pg-w64f4c4564fe52-0"}
+                    className={"panel-grid panel-no-style"}
                   >
                     <div
-                     
-                      id={"panel-w64f4c4564fe52-0-0-0"}
-                      className={
-                        "so-panel widget widget_sow-image panel-first-child panel-last-child"
-                      }
-                      data-index={0}
+                      id={"pgc-w64f4c4564fe52-0-0"}
+                      className={"panel-grid-cell"}
                     >
                       <div
-                       
+                        id={"panel-w64f4c4564fe52-0-0-0"}
                         className={
-                          "so-widget-sow-image so-widget-sow-image-default-6b88c04c1f9b"
+                          "so-panel widget widget_sow-image panel-first-child panel-last-child"
                         }
+                        data-index={0}
                       >
-                        <div
-                         
-                          className={"sow-image-container"}
-                        >
-                          <img
-                          
-                            src={item.imageurl}
-                            width={1}
-                            height={1}
-                            data-lazy-sizes={"(max-width: 1px) 100vw, 1px"}
-                            title={"Liệu trình độc quyền"}
-                            className={"so-widget-image entered lazyloaded"}
-                            data-lazy-src={item.imageurl}
-                            data-ll-status={"loaded"}
-                            sizes={"(max-width: 1px) 100vw, 1px"}
-                          ></img>
-                          <noscript
-                          
+                        <div className={"flex flex-col items-center"}>
+                          <div
+                            style={{
+                              boxShadow: "0 3px 30px rgba(255,103,152,.31)",
+                            }}
+                            className="w-24 h-24 rounded-full flex justify-center items-center"
                           >
+                            {" "}
                             <img
+                              className="w-20 h-20"
                               src={item.imageurl}
-                              width="1"
-                              height="1"
-                              sizes="(max-width: 1px) 100vw, 1px"
-                              title="Liệu trình độc quyền"
-                              alt=""
-                              class="so-widget-image"
-                            />
-                          </noscript>
-                        </div>
+                            ></img>
+                          </div>
 
-                        <h3
-                          
-                          className={"widget-title"}
-                        >
-                          {item.name}
-                        </h3>
+                          <h3 className={"widget-title text-3xl my-3"}>{item.name}</h3>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div
-                  
-                  id={"pg-w64f4c4564fe52-1"}
-                  className={"panel-grid panel-has-style"}
-                >
                   <div
-                    
-                    className={
-                      "acc-panel panel-row-style panel-row-style-for-w64f4c4564fe52-1"
-                    }
+                    id={"pg-w64f4c4564fe52-1"}
+                    className={"panel-grid panel-has-style"}
                   >
-                 <p
-                                
-                                >
-                                {item.title}
-                                </p>
-                        <div className="w-10/12 ml-[10%]"> 
-                          <div className="grid grid-cols-3 " >
-                        {item.block.map((noneblock, index) => (
-                          <div
-                            key={index}
-                           
-                            className={
-                              "siteorigin-widget-tinymce textwidget flex "
-                            }
-                          >
-                            <p
-                           
+                    <div
+                      className={
+                        "acc-panel panel-row-style panel-row-style-for-w64f4c4564fe52-1 flex flex-col justify-center items-center"
+                      }
+                    >
+                      <p className="w-3/4">{item.title}</p>
+                      <div className="w-10/12 ml-[10%]  ">
+                        <div className="grid xl:grid-cols-3 ">
+                          {item.block.map((noneblock, index) => (
+                            <div
+                              key={index}
+                              style={{
+                                boxShadow: "0 3px 30px rgba(255,103,152,.31)",
+                              }}
+                              className={
+                                "w-4/5 h-14 rounded-full  flex justify-center items-center mt-10 border-2 border-rose-200"
+                              }
                             >
-                              <a
-                              
-                              >
-                                <strong
-                             
-                                >
-                                  {noneblock.titlename}
-                                </strong>
-                              </a>
-                                   
-                            </p>
-                          </div>
-                        ))}
-                      </div>
+                              <p>
+                                <a href={noneblock.link}>
+                                  <strong className="px-4">{noneblock.titlename}</strong>
+                                </a>
+                                     
+                              </p>
+                            </div>
+                          ))}
+                        </div>
 
+                       
+                      </div>
                       <div
-                      
-                        id={"panel-w64f4c4564fe52-1-0-2"}
-                        className={"so-panel widget widget_ink-buttons"}
-                        data-index={3}
-                      >
-                        <div
-                        
-                          className={
-                            "acc-panel btn-pink panel-widget-style panel-widget-style-for-w64f4c4564fe52-1-0-2"
-                          }
+                          id={"panel-w64f4c4564fe52-1-0-2"}
+                          className={"so-panel widget widget_ink-buttons my-5"}
+                          data-index={3}
                         >
                           <div
-                        
                             className={
-                              "so-widget-ink-buttons so-widget-ink-buttons-buttons-b5aaee92b35d"
+                              "acc-panel btn-pink panel-widget-style panel-widget-style-for-w64f4c4564fe52-1-0-2"
                             }
                           >
                             <div
-                            
-                              className={"iw-so-button-base"}
+                              className={
+                                "so-widget-ink-buttons so-widget-ink-buttons-buttons-b5aaee92b35d my-5  "
+                              }
                             >
-                              <a
-                               
-                                className={
-                                  "iw-so-button book-must-have pum-trigger"
-                                }
-                              >
-                                ĐẶT GÓI{" "}
-                              </a>
+                              <div className={"iw-so-button-base "}>
+                                <a
+                                 style={{
+                                  boxShadow: "0 3px 30px rgba(255,103,152,.31)",
+                                }}
+                                  className={
+                                    "iw-so-button book-must-have pum-trigger bg-rose-300 px-5 py-3 text-slate-50 font-light  rounded-full"
+                                  }
+                                >
+                                  ĐẶT GÓI{" "}
+                                </a>
+                              </div>
                             </div>
                           </div>
                         </div>
-                      </div>
-                      <div
-                      
-                        id={"panel-w64f4c4564fe52-1-0-3"}
-                        className={
-                          "widget_text so-panel widget widget_custom_html panel-last-child"
-                        }
-                        data-index={4}
-                      >
                         <div
-                         
-                          className={"textwidget custom-html-widget"}
+                          id={"panel-w64f4c4564fe52-1-0-3"}
+                          className={
+                            "widget_text so-panel widget widget_custom_html panel-last-child"
+                          }
+                          data-index={4}
                         >
-                          <div
-                          
-                            className={"acc-close"}
-                          >
-                            ĐÓNG
+                          <div className={"textwidget custom-html-widget"}>
+                            <div className={"acc-close"}>ĐÓNG</div>
                           </div>
                         </div>
-                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 }
