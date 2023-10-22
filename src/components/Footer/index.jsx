@@ -15,7 +15,7 @@ const Footerx = () => {
         style={{
           backgroundImage:
             "url(https://glo365.vn/wp-content/themes/ndg-quantum/imgs/footer.svg)",
-          backgroundSize: "3000px",
+          backgroundSize: "5000px",
         }}
         className=" w-full bg-cover bg-center bg-no-repeat py-10  "
       >

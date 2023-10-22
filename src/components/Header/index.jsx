@@ -60,8 +60,8 @@ const Header = () => {
             </Navbar>
 
             <div>
-              <Navbar className="xl:px-0">
-                <Link href="#" className="ml-5 text-lg">
+              <Navbar className="xl:px-0 ">
+                <div className="flex"><Link href="#" className="ml-5 text-lg">
                   <FaFacebook />
                 </Link>
                 <Link href="#" className="ml-5 text-lg">
@@ -69,7 +69,8 @@ const Header = () => {
                 </Link>
                 <Link href="#" className="ml-5 text-lg">
                   <AiFillInstagram />
-                </Link>
+                </Link></div>
+                
               </Navbar>
             </div>
           </Navbar.Collapse>

@@ -31,6 +31,7 @@ const datax = {
       title: "GLO365 PRODUCTS",
       text: "Bước 3: Làm sạch và chăm sóc da với các dòng sản phầm độc quyền từ Glo365. Công thức chứa các thành phần dịu nhẹ, không hóa chất độc hại. Sự kết hợp đột phá giữa tinh chất dưỡng chuyên sâu với các chiết xuất từ thiên nhiên mang lại hiệu quả vượt trội. ",
     },
+  
   ],
 };
 
@@ -59,24 +60,7 @@ export default function index() {
         </div>
 
         {/* video */}
-        <div
-          className="relative flex items-center  
-    justify-center h-screen   
-    overflow-hidden"
-        >
-          <video
-            autoPlay
-            loop
-            muted
-            className="absolute z-10 w-auto  
-    min-w-full xl:min-h-full sm:h-1/2  max-w-none"
-          >
-            <source
-              src="https://glo365.vn/wp-content/uploads/2019/11/Skin-Gym-Linh-Nga-Glo.mp4"
-              type="video/mp4"
-            />
-          </video>
-        </div>
+       
         {/* đăng kí ngay */}
         <div className="w-screen flex justify-center items-center xl:mt-10 sm:mt-0 mb-5">
           {" "}
@@ -89,22 +73,21 @@ export default function index() {
         <div className="w-screen flex justify-center ">
           <p className=" w-3/4">{datax.index}</p>
         </div>
-        <div className="w-screen flex justify-center h-96">
-          {" "}
-          <div></div>
-          <Slider {...settings}>
-            
+        <div className="w-screen flex justify-center items-center h-auto sm:flex-col lg:flex-row xl:flex-row flex-col ">
+      
+        
+         
             {datax.label.map((index, i) => (
               <div
                 key={i}
-                className="w-80 p-9 h-auto bg-white rounded-2xl flex flex-col justify-center items-center border-2 border-rose-200"
+                className="my-5  w-80 p-9 h-auto bg-white rounded-2xl flex flex-col justify-center items-center border-2 border-rose-200 ml-10"
               >
                 <img className="w-1/2" src={index.image}></img>
                 <h3 className="my-5 text-2xl">{index.title}</h3>
                 <p className="font-light">{index.text}</p>
               </div>
             ))}
-          </Slider>
+         
         </div>
       </div>
       {/* công nghệ */}
