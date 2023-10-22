@@ -8,7 +8,8 @@ export default function index() {
   return (
     <div>
         <h2 className="text-5xl mt-10 mb-20">LIÊN HỆ</h2>
-        <div className="w-screen h-auto flex justify-center items-center mb-20 xl:flex-row sm:flex-col">  {data.map((datax, i) => (
+        <div className="w-screen h-auto flex justify-center items-center mb-20 xl:flex-row sm:flex-col flex-col">  
+        {data.map((datax, i) => (
         <div className=" h-auto flex flex-col items-center mr-16 mb-10"> 
             <img className="w-20" src={datax.icon}></img>
             <div className="my-5">

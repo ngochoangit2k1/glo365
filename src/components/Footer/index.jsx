@@ -26,7 +26,7 @@ const Footerx = () => {
             alt="Flowbite React Logo"
           />
         </Footer.Brand>
-        <div className="grid xl:grid-cols-3 mt-10  sm:grid-cols-1 w-screen gap-4 ml-20  ">
+        <div className="grid xl:grid-cols-3 mt-10  sm:grid-cols-1  gap-4 ml-20  ">
           {" "}
           <div className="flex flex-col items-start mr-10 left text-white sm:order-3 order-3 xl:order-1  w-3/5">
             <p className="mb-3 flex">

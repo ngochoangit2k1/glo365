@@ -157,7 +157,7 @@ export default function index() {
                 setOpenMenu(item.name === openMenu ? "" : item.name), toggle;
               }}
               data-index={2}
-              className="w-4/5 flex justify-center"
+              className="w-3/5 flex justify-center"
             >
               <div
                 style={{
