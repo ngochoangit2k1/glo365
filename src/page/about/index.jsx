@@ -34,7 +34,7 @@ export default function index() {
         thế tiên phong với các dịch vụ thẩm mỹ công nghệ đỉnh cao được FDA chứng
         nhận.
       </p>
-      <div className=" w-2/3 flex justify-center xl:flex-row lg:flex-row   sm:flex-col"> {datas.map((data, i) => (
+      <div className=" w-2/3 flex justify-center xl:flex-row lg:flex-row   sm:flex-col flex-col"> {datas.map((data, i) => (
         <div key={i}>
           <div
             style={{
