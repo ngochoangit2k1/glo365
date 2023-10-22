@@ -18,7 +18,7 @@ const Header = () => {
           className=" h-auto xl:rounded-full  xl:w-5/6 sm:w-full w-full sm:rounded-none nowrap"
         >
           <div className="  50  flex">
-            <Navbar.Brand as={Link} href="/">
+            <Navbar.Brand as={Link} to="/">
               <img
                 src="https://glo365.vn/wp-content/uploads/2020/07/Glo365-logo-2000x600.svg"
                 className="mr-3 h-6 sm:h-9"

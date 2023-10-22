@@ -116,7 +116,7 @@ export default function index() {
   const [openMenu, setOpenMenu] = useState("");
 
   return (
-    <div className=" w-screen h-auto flex flex-col items-center ">
+    <div className=" w-screen h-auto flex flex-col items-center mb-20">
       <h2
         style={{
           boxSizing: "border-box",
@@ -241,7 +241,7 @@ export default function index() {
                             >
                               <p>
                                 <a href={noneblock.link}>
-                                  <strong className="px-4">{noneblock.titlename}</strong>
+                                  <strong className="">{noneblock.titlename}</strong>
                                 </a>
                                      
                               </p>

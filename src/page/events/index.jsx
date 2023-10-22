@@ -1,5 +1,6 @@
 import React from "react";
 import {BsFacebook} from "react-icons/bs"
+import {FaLocationDot} from "react-icons/fa6"
 export default function index() {
   return (
     <div className="flex flex-col justify-center items-center w-screen">
@@ -30,12 +31,14 @@ export default function index() {
           <div className="mb-5">
             <a className="bg-rose-300 text-slate-50 px-5 py-3 rounded-full" href="/">Book Ngay</a>
           </div>
-          <div className="my-4">
+          <div className="my-4 flex items-center">
+            <p className="text-slate-800 mr-4"><FaLocationDot/></p>
             <p>31A Lý Tự Trọng, Quận 1, TP.HCM</p>
           </div>
-          <div>
-            <p className="text-slate-800">{BsFacebook}</p>
-            <p>Facebook</p>
+          <div className="flex  items-center">
+            
+            <p className="text-slate-800 mr-4"><BsFacebook/></p>
+            <p> Facebook</p>
           </div>
         </div>
       </div>
